@@ -51,13 +51,13 @@ head:
         image: 
         # Site name (og:site_name) (optional)
         # You should leave this blank for most of the time
-        site_name: 
+        site_name: 曲思家
         # Page author (article:author) (optional)
         # You should leave this blank for most of the time
-        author: 
+        author: 曲思家
         # Page description (og:description) (optional)
         # You should leave this blank for most of the time
-        description: 
+        description: 曲思家的博客
         # Twitter card type (twitter:card)
         twitter_card: 
         # Twitter ID (twitter:creator)
@@ -75,10 +75,10 @@ head:
     structured_data:
         # Page title (optional)
         # You should leave this blank for most of the time
-        title: 
+        title: 曲思家
         # Page description (optional)
         # You should leave this blank for most of the time
-        description: 
+        description: 曲思家的博客
         # Page URL (optional)
         # You should leave this blank for most of the time
         url: 
@@ -105,16 +105,16 @@ head:
 navbar:
     # Navigation menu items
     menu:
-        Home: /
-        Archives: /archives
-        Categories: /categories
-        Tags: /tags
-        About: /about
+        主页: /
+        文章: /archives
+        分类: /categories
+        标签: /tags
+        关于: /about
     # Links to be shown on the right of the navigation bar
     links:
         Download on GitHub:
             icon: fab fa-github
-            url: https://github.com/ppoffice/hexo-theme-icarus
+            url: https://github.com/qvsijia/hexo-theme-arous
 # Page footer configurations
 footer:
     # Links to be shown on the right of the footer section
@@ -127,7 +127,7 @@ footer:
             url: https://creativecommons.org/licenses/by/4.0/
         Download on GitHub:
             icon: fab fa-github
-            url: https://github.com/ppoffice/hexo-theme-icarus
+            url: https://github.com/qvsijia/hexo-theme-arous
 # Article related configurations
 article:
     # Code highlight settings
@@ -225,24 +225,24 @@ widgets:
         position: left
         type: profile
         # Author name
-        author: Your name
+        author: 曲思家
         # Author title
-        author_title: Your title
+        author_title: “我的圣剑，明亮可鉴”
         # Author's current location
-        location: Your location
+        location: 中国 甘肃
         # URL or path to the avatar image
         avatar: 
         # Whether show the rounded avatar image
         avatar_rounded: false
         # Email address for the Gravatar
-        gravatar: 
+        gravatar: admin@qvsijia.com
         # URL or path for the follow button
-        follow_link: https://github.com/ppoffice
+        follow_link: https://github.com/qvsijia
         # Links to be shown on the bottom of the profile widget
         social_links:
             Github:
                 icon: fab fa-github
-                url: https://github.com/ppoffice
+                url: https://github.com/qvsijia
             Facebook:
                 icon: fab fa-facebook
                 url: https://facebook.com
