@@ -1,12 +1,14 @@
-# Version of the configuration file
+# 配置文件版本
 version: 5.0.0
-# Icarus theme variant, can be "default" or "cyberpunk"
+# 主题模式 可以是"default"或"cyberpunk"
 variant: default
-# Path or URL to the website's logo
-logo: /img/logo.svg
-# Page metadata configurations
+# 站点LOGO地址
+#logo: /img/logo.svg
+logo:
+    text: Qvsijia 曲思家
+# 页面元数据配置
 head:
-    # URL or path to the website's icon
+    # 站点ICON地址
     favicon: /img/favicon.svg
     # Web application manifests configuration
     # https://developer.mozilla.org/en-US/docs/Web/Manifest
@@ -103,7 +105,7 @@ head:
     rss: 
 # Page top navigation bar configurations
 navbar:
-    # Navigation menu items
+    # 导航菜单项目
     menu:
         主页: /
         文章: /archives
@@ -161,9 +163,26 @@ search:
 # Comment plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
 comment:
-    type: disqus
-    # Disqus shortname
-    shortname: ''
+    type: waline
+    server_url: https://waline-qvsijia.vercel.app/
+    lang: zh-CN                                   # 可选填
+    visitor: false                                # 可选填
+    emoji:                                        # 可选填
+      - 'https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo'
+    dark: auto                                    # 可选填
+    meta: ["nick", "mail", "link"]                # 可选填
+    required_meta: []                             # 可选填
+    login: enable                                 # 可选填
+    avatar: mp                                    # 可选填
+    word_limit: 0                                 # 可选填
+    page_size: 10                                 # 可选填
+    avatar_cdn: 'https://sdn.geekzu.org/avatar/'  # 可选填
+    avatar_force: false                           # 可选填
+    highlight: true                               # 可选填
+    math_tag_support: false                       # 可选填
+    copyright: true                               # 可选填
+    locale:                                       # 可选填
+      placeholder: 'Comment here...'
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
 donates:
@@ -271,10 +290,11 @@ widgets:
         # Where should the widget be placed, left sidebar or right sidebar
         position: left
         type: links
-        # Names and URLs of the sites
+        # 友情链接
         links:
-            Hexo: https://hexo.io
-            Bulma: https://bulma.io
+            曲思家: https://www.qvsijia.com
+            又拍云: https://www.upyun.com
+            Vercel: https://www.vercel.com
     # Categories widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
