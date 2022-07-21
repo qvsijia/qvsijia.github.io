@@ -6,7 +6,7 @@ author: 曲思家
 language: zh-CN
 timezone: Asia/Shanghai
 url: https://www.qvsijia.com
-permalink: :hash.html
+permalink: :title.html
 permalink_defaults: null
 pretty_urls:
   trailing_index: true
