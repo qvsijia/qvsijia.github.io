@@ -247,7 +247,7 @@ widgets:
         # Author title
         author_title: “我的圣剑，明亮可鉴”
         # Author's current location
-        location: 中国 甘肃
+        location: 中国
         # URL or path to the avatar image
         avatar: 
         # Whether show the rounded avatar image
