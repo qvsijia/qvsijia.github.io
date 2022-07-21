@@ -5,8 +5,8 @@ keywords: 曲思家
 author: 曲思家
 language: zh-CN
 timezone: Asia/Shanghai
-url: https://qvsijia.github.io
-permalink: ':id.html'
+url: https://www.qvsijia.com
+permalink: :hash
 permalink_defaults: null
 pretty_urls:
   trailing_index: true
@@ -28,7 +28,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: true
+post_asset_folder: false
 relative_link: false
 future: true
 highlight:
@@ -51,7 +51,7 @@ default_category: all
 category_map: null
 tag_map: null
 meta_generator: true
-date_format: YYYY-MM-DD
+date_format: YYYY/MM/DD
 time_format: HH:mm:ss
 updated_option: mtime
 per_page: 10
