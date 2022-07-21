@@ -249,11 +249,11 @@ widgets:
         # Author's current location
         location: 中国
         # URL or path to the avatar image
-        avatar: 
+        avatar: http://assets-storage.qvsijia.com/reserve/qvsijia.png
         # Whether show the rounded avatar image
-        avatar_rounded: false
+        avatar_rounded: true
         # Email address for the Gravatar
-        gravatar: admin@qvsijia.com
+        # gravatar: admin@qvsijia.com
         # URL or path for the follow button
         follow_link: https://github.com/qvsijia
         # Links to be shown on the bottom of the profile widget
