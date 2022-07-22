@@ -9,7 +9,7 @@ logo:
 # 页面元数据配置
 head:
     # 站点ICON地址
-    favicon: /img/favicon.svg
+    favicon: /img/favicon.png
     # Web 应用程序清单配置
     # https://developer.mozilla.org/en-US/docs/Web/Manifest
     manifest:
