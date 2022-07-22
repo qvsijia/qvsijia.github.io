@@ -1,9 +1,9 @@
-title: Icarus用户指南 - CDN提供商
+title: 用户指南 - CDN提供商
 date: 2016-01-01
 categories:
 - Configuration
 tags:
-- Icarus用户指南
+- 用户指南
 language: zh-CN
 toc: true
 providers:

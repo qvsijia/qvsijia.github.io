@@ -1,9 +1,9 @@
-title: Icarus用户指南 - 挂件
+title: 用户指南 - 挂件
 date: 2016-01-01
 categories:
 - Widgets
 tags:
-- Icarus用户指南
+- 用户指南
 language: zh-CN
 toc: true
 sidebar:

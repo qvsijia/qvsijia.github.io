@@ -373,27 +373,27 @@ plugins:
     # 卜算子网站/页面浏览计数器
     # https://busuanzi.ibruce.info
     busuanzi: true
-    # CNZZ statistics
+    # CNZZ 统计数据
     # https://www.umeng.com/web
     cnzz:
-        # CNZZ tracker id
+        # CNZZ 跟踪器 ID
         id: 
-        # CNZZ website id
+        # CNZZ 网站 ID
         web_id: 
-    # Alerting users about the use of cookies
+    # 提醒用户使用 cookie
     # https://www.osano.com/cookieconsent/
     cookie_consent:
-        # The compliance type. Can be "info", "opt-in", or "opt-out"
-        type: info
-        # Theme of the popup. Can be "block", "edgeless", or "classic"
-        theme: edgeless
-        # Whether the popup should stay static regardless of the page scrolls
+        # 合规类型。 可以是“info”、“opt-in”或“opt-out”
+        type: opt-in
+        # 弹出窗口的主题。 可以是“block”、“edgeless”或“classic”
+        theme: block
+        # 无论页面滚动如何，弹出窗口是否应保持静态
         static: false
-        # Where on the screen the consent popup should display
+        # 同意弹出窗口应显示在屏幕上的哪个位置
         position: bottom-left
-        # URL to your site's cookie policy
+        # 您网站的 cookie 政策的 URL
         policyLink: https://www.cookiesandyou.com/
-    # Enable the lightGallery and Justified Gallery plugins
+    # 启用 lightGallery 和 Justified Gallery 插件
     gallery: true
     # Google Analytics plugin settings
     # https://analytics.google.com

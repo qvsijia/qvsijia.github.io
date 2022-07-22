@@ -1,10 +1,10 @@
-title: Icarus用户指南 - 赞赏按钮
+title: 用户指南 - 赞赏按钮
 date: 2016-01-01
 categories:
 - Plugins
 - Donation
 tags:
-- Icarus用户指南
+- 用户指南
 language: zh-CN
 toc: true
 donates:

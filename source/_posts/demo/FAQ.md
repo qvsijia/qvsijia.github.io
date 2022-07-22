@@ -2,7 +2,7 @@ title: 常见问题
 date: 2016-01-03
 language: zh-CN
 tags:
-- Icarus用户指南
+- 用户指南
 toc: true
 providers:
     cdn: loli
@@ -12,7 +12,7 @@ providers:
 
 本文解答了一些Icarus常见问题。
 如果你的问题没有在这里得到解答，也请阅读
-[Icarus用户指南](/hexo-theme-icarus/tags/Icarus用户指南/)，
+[用户指南](/hexo-theme-icarus/tags/用户指南/)，
 [Hexo中文文档](https://hexo.io/zh-cn/docs/index.html)，
 以及[GitHub Issues](https://github.com/ppoffice/hexo-theme-icarus/issues?q=)。
 此外，你也可以在[GitHub讨论组](https://github.com/ppoffice/hexo-theme-icarus/discussions)上向其他Icarus用户请求帮助。
@@ -106,7 +106,7 @@ CSS类名中的数字标志着一个挂件或主内容所占据的栏数量。
 - 你可以将所有的挂件移动到页面的一侧来创建双栏布局。
 - 你可以将挂件放在页面两边来创建三栏布局。
 
-若要更改单个文章或页面的布局，请参考[配置文件与优先级](/hexo-theme-icarus/Configuration/icarus用户指南-主题配置/#配置文件与优先级)。
+若要更改单个文章或页面的布局，请参考[配置文件与优先级](/hexo-theme-icarus/Configuration/用户指南-主题配置/#配置文件与优先级)。
 
 <article class="message is-primary" style="font-size:1em">
 <div class="message-body">

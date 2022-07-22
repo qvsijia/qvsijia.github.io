@@ -1,7 +1,7 @@
 title: 升级指南
 date: 2016-01-02
 tags:
-- Icarus用户指南
+- 用户指南
 language: zh-CN
 providers:
     cdn: loli

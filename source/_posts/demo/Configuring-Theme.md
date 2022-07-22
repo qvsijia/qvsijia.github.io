@@ -1,10 +1,10 @@
-title: Icarus用户指南 - 主题配置
+title: 用户指南 - 主题配置
 date: 2016-01-04
 categories:
 - Configuration
 tags:
 - Getting Started
-- Icarus用户指南
+- 用户指南
 language: zh-CN
 toc: true
 providers:
@@ -371,7 +371,7 @@ sidebar:
 
 ### 其他配置
 
-你可以参考[Icarus用户指南](/hexo-theme-icarus/tags/Icarus用户指南/)来了解更多第三方的插件、挂件、以及CDN提供商的配置。
+你可以参考[用户指南](/hexo-theme-icarus/tags/用户指南/)来了解更多第三方的插件、挂件、以及CDN提供商的配置。
 
 
 ## 配置文件与优先级

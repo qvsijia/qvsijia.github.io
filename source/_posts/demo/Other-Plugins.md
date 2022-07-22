@@ -1,10 +1,10 @@
-title: Icarus用户指南 - 其他插件
+title: 用户指南 - 其他插件
 date: 2016-01-01
 categories:
 - Plugins
 - Other
 tags:
-- Icarus用户指南
+- 用户指南
 language: zh-CN
 toc: true
 plugins:

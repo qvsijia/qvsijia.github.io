@@ -1,10 +1,10 @@
-title: Icarus用户指南 - 用户评论插件
+title: 用户指南 - 用户评论插件
 date: 2016-01-01
 categories:
 - Plugins
 - Comment
 tags:
-- Icarus用户指南
+- 用户指南
 language: zh-CN
 toc: true
 providers:

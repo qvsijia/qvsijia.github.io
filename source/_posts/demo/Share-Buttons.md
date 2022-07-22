@@ -1,10 +1,10 @@
-title: Icarus用户指南 - 分享按钮
+title: 用户指南 - 分享按钮
 date: 2016-01-01
 categories:
 - Plugins
 - Share
 tags:
-- Icarus用户指南
+- 用户指南
 language: zh-CN
 toc: true
 share:
