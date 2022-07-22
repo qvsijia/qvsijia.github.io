@@ -4,8 +4,8 @@ version: 5.0.0
 variant: default
 # 站点LOGO地址
 #logo: /img/logo.svg
-logo:
-    text: Qvsijia 曲思家
+logo: /img/logo.png
+#    text: Qvsijia 曲思家
 # 页面元数据配置
 head:
     # 站点ICON地址
