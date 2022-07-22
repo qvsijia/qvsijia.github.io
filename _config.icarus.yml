@@ -353,24 +353,24 @@ widgets:
         action_url: ''
         # Feed claiming verification code
         verification_code: ''
-# Plugin configurations
+# 插件配置
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/
 plugins:
-    # Enable page startup animations
+    # 启用页面启动动画
     animejs: true
-    # Show the "back to top" button
+    # 显示“返回顶部”按钮
     back_to_top: true
-    # Baidu Analytics plugin settings
+    # 百度分析插件设置
     # https://tongji.baidu.com
     baidu_analytics:
-        # Baidu Analytics tracking ID
+        # 百度分析跟踪 ID
         tracking_id: 
-    # Bing Webmaster Tools plugin settings
+    # 必应网站管理员工具插件设置
     # https://www.bing.com/toolbox/webmaster/
     bing_webmaster:
-        # Bing Webmaster Tools tracking ID in the <meta> tag
+        # <meta> 标记中的 Bing 网站管理员工具跟踪 ID
         tracking_id: 
-    # BuSuanZi site/page view counter
+    # 卜算子网站/页面浏览计数器
     # https://busuanzi.ibruce.info
     busuanzi: true
     # CNZZ statistics
@@ -428,12 +428,12 @@ plugins:
     twitter_conversion_tracking:
         # Twitter Pixel ID
         pixel_id: 
-# CDN provider settings
+# CDN 提供商设置
 # https://ppoffice.github.io/hexo-theme-icarus/Configuration/Theme/speed-up-your-site-with-custom-cdn/
 providers:
-    # Name or URL template of the JavaScript and/or stylesheet CDN provider
+    # JavaScript/CSS CDN 提供商的名称或 URL 模板
     cdn: 75cdn
-    # Name or URL template of the webfont CDN provider
+    # Webfont CDN 提供商的名称或 URL 模板
     fontcdn: ustc
-    # Name or URL of the fontawesome icon font CDN provider
+    # Fontawesome 图标字体 CDN 提供商的名称或 URL
     iconcdn: 75cdn
