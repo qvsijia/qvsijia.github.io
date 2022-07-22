@@ -249,7 +249,7 @@ widgets:
         # Author's current location
         location: 中国
         # URL or path to the avatar image
-        avatar: https://image.suning.cn/uimg/yunxin/yunxinImg/165844529002882512.jpg
+        avatar: /img/avatar.png
         # Whether show the rounded avatar image
         avatar_rounded: true
         # Email address for the Gravatar
