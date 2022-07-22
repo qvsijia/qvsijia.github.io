@@ -219,10 +219,10 @@ donates:
         qrcode: 'http://assets-storage.qvsijia.com/reserve/wechat.png'
 # 分享插件配置
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share/
-share:
-    type: sharethis
+#share:
+#    type: sharethis
     # URL to the ShareThis share plugin script
-    install_url: https://platform-api.sharethis.com/js/sharethis.js#property=62da1f6e62cd13001ef5a611&product=inline-share-buttons
+#    install_url: https://platform-api.sharethis.com/js/sharethis.js#property=62da1f6e62cd13001ef5a611&product=inline-share-buttons
 # Sidebar configurations.
 # Please be noted that a sidebar is only visible when it has at least one widget
 sidebar:
