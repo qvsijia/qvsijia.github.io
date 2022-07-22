@@ -384,9 +384,9 @@ plugins:
     # https://www.osano.com/cookieconsent/
     cookie_consent:
         # 合规类型。 可以是“info”、“opt-in”或“opt-out”
-        type: opt-in
+        type: info
         # 弹出窗口的主题。 可以是“block”、“edgeless”或“classic”
-        theme: block
+        theme: edgeless
         # 无论页面滚动如何，弹出窗口是否应保持静态
         static: false
         # 同意弹出窗口应显示在屏幕上的哪个位置
