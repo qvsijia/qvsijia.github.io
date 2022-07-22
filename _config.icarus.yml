@@ -220,7 +220,7 @@ donates:
 # 分享插件配置
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share/
 share:
-    type: sharethis
+    type: addtoany
     # URL to the ShareThis share plugin script
     install_url: ''
 # Sidebar configurations.
@@ -395,38 +395,38 @@ plugins:
         policyLink: https://www.cookiesandyou.com/
     # 启用 lightGallery 和 Justified Gallery 插件
     gallery: true
-    # Google Analytics plugin settings
+    # 谷歌分析插件设置
     # https://analytics.google.com
     google_analytics:
-        # Google Analytics tracking ID
+        # 谷歌分析跟踪 ID
         tracking_id: 
-    # Hotjar user feedback plugin
+    # Hotjar 用户反馈插件
     # https://www.hotjar.com/
     hotjar:
-        # Hotjar site id
+        # Hotjar 站点 ID
         site_id: 
-    # Enable the KaTeX math typesetting support
+    # 启用 KaTeX 数学排版支持
     # https://katex.org/
     katex: false
-    # Enable the MathJax math typesetting support
+    # 启用 MathJax 数学排版支持
     # https://www.mathjax.org/
     mathjax: false
-    # Enable the Outdated Browser plugin
+    # 启用过时的浏览器插件
     # http://outdatedbrowser.com/
     outdated_browser: false
-    # Show a progress bar at top of the page on page loading
+    # 在页面加载时在页面顶部显示进度条
     progressbar: true
-    # Statcounter statistics
+    # 统计计数器统计
     # https://statcounter.com/
     statcounter:
-        # Statcounter project id
+        # 统计计数器项目 ID
         project: 
-        # Statcounter project security code
+        # Statcounter项目安全码
         security: 
-    # Twitter conversion tracking plugin settings
+    # Twitter 转化跟踪插件设置
     # https://business.twitter.com/en/help/campaign-measurement-and-analytics/conversion-tracking-for-websites.html
     twitter_conversion_tracking:
-        # Twitter Pixel ID
+        # 推特像素 ID
         pixel_id: 
 # CDN 提供商设置
 # https://ppoffice.github.io/hexo-theme-icarus/Configuration/Theme/speed-up-your-site-with-custom-cdn/
