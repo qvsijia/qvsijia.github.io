@@ -59,7 +59,7 @@ pagination_dir: page
 include: null
 exclude: null
 ignore: null
-theme: arous
+theme: icarus
 deploy:
   type: git
   repo: https://github.com/qvsijia/qvsijia.github.io.git

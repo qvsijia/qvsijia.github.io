@@ -22,7 +22,7 @@
     "hexo-renderer-marked": "^5.0.0",
     "hexo-renderer-stylus": "^2.1.0",
     "hexo-server": "^3.0.0",
-    "hexo-theme-arous": "https://github.com/qvsijia/hexo-theme-arous/archive/refs/heads/master.tar.gz",
+    "hexo-theme-icarus": "https://github.com/qvsijia/hexo-theme-arous/archive/refs/heads/master.tar.gz",
     "hexo-theme-landscape": "^0.0.3"
   }
 }
