@@ -64,3 +64,21 @@ deploy:
   type: git
   repo: https://github.com/qvsijia/qvsijia.github.io.git
   branch: gh-pages
+
+# Hexo-Neat
+neat_enable: true
+neat_html:
+  enable: true
+  logger: true
+  exclude:
+neat_css:
+  enable: true
+  logger: true
+  exclude:
+neat_js:
+  enable: true
+  logger: true
+  mangle: true
+  output:
+  compress:
+  exclude:
