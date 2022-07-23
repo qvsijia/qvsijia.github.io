@@ -3,12 +3,14 @@ version: 5.0.0
 # 主题模式 可以是"default"或"cyberpunk"
 variant: default
 # 站点LOGO地址
-logo: /img/logo.png
+logo: https://image.uc.cn/s/wemedia/s/upload/2022/017577b5e867d58faac408a4bd3641e9.png
+#logo: /img/logo.png
 #    text: Qvsijia 曲思家
 # 页面元数据配置
 head:
     # 站点ICON地址
-    favicon: /img/favicon.png
+    favicon: https://image.uc.cn/s/wemedia/s/upload/2022/e25ece49ac5ea6e200881d41a9276a21.png
+    #favicon: /img/favicon.png
     # Web 应用程序清单配置
     # https://developer.mozilla.org/en-US/docs/Web/Manifest
     manifest:
