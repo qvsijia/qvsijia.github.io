@@ -3,14 +3,12 @@ version: 5.0.0
 # 主题模式 可以是"default"或"cyberpunk"
 variant: default
 # 站点LOGO地址
-logo: https://image.suning.cn/uimg/yunxin/yunxinImg/165854635939068818.jpg
-#logo: /img/logo.png
+logo: /img/logo.png
 #    text: Qvsijia 曲思家
 # 页面元数据配置
 head:
     # 站点ICON地址
-    favicon: https://image.suning.cn/uimg/yunxin/yunxinImg/165854636064862229.jpg
-    #favicon: /img/favicon.png
+    favicon: /img/favicon.png
     # Web 应用程序清单配置
     # https://developer.mozilla.org/en-US/docs/Web/Manifest
     manifest:
