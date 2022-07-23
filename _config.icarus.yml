@@ -124,28 +124,31 @@ footer:
         Creative Commons:
             icon: fab fa-creative-commons
             url: https://creativecommons.org/
-        Attribution 4.0 International:
+        Attribution:
             icon: fab fa-creative-commons-by
             url: https://creativecommons.org/licenses/by/4.0/
-        Download on GitHub:
+        Noncommercial:
+            icon: fab fa-creative-commons-nc
+            url: https://creativecommons.org/licenses/by-nc/4.0/
+        GitHub:
             icon: fab fa-github
             url: https://github.com/qvsijia/hexo-theme-arous
-# Article related configurations
+# 文章相关配置
 article:
-    # Code highlight settings
+    # 代码高亮设置
     highlight:
-        # Code highlight themes
+        # 代码高亮主题
         # https://github.com/highlightjs/highlight.js/tree/master/src/styles
         theme: atom-one-light
-        # Show copy code button
+        # 显示复制代码按钮
         clipboard: true
-        # Default folding status of the code blocks. Can be "", "folded", "unfolded"
+        # 代码块的默认折叠状态。 可以是“folded”、“unfolded”
         fold: unfolded
-    # Whether to show estimated article reading time
-    readtime: true
-    # Whether to show updated time. For "auto", shows article update time only when page.updated is set and it is different from page.date
-    update_time: true
-    # Article licensing block
+    # 是否显示预计文章阅读时间
+    readtime: false
+    # 是否显示更新时间。 对于“auto”，仅在设置 page.updated 且与 page.date 不同时显示文章更新时间
+    update_time: auto
+    # 文章许可块
     licenses:
         Creative Commons:
             icon: fab fa-creative-commons
@@ -169,7 +172,6 @@ comment:
     lang: zh-CN                                   # 可选填
     visitor: true                                 # 可选填
     emoji:                                        # 可选填
-      - 'https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo'
       - 'https://unpkg.com/@waline/emojis@1.0.1/qq'
     dark: auto                                    # 可选填
     meta: ["nick", "mail"]                        # 可选填
@@ -197,22 +199,22 @@ donates:
         type: wechat
         # Wechat qrcode image URL
         qrcode: 'https://image.suning.cn/uimg/yunxin/yunxinImg/165854320435550426.jpg'
-    # "Afdian.net" donate button configurations
-    -
-        type: afdian
-        # URL to the "Afdian.net" personal page
-        url: ''
-    # "Buy me a coffee" donate button configurations
-    -
-        type: buymeacoffee
-        # URL to the "Buy me a coffee" page
-        url: ''
-    # Patreon donate button configurations
-    -
-        type: patreon
-        # URL to the Patreon page
-        url: ''
-    # Paypal donate button configurations
+#    # "Buy me a coffee" donate button configurations
+#    -
+#        type: buymeacoffee
+#        # URL to the "Buy me a coffee" page
+#        url: ''
+#    # "Afdian.net" donate button configurations
+#   -
+#        type: afdian
+#        # URL to the "Afdian.net" personal page
+#        url: ''
+#    # Patreon donate button configurations
+#    -
+#        type: patreon
+#        # URL to the Patreon page
+#        url: ''
+#    # Paypal donate button configurations
 #    -
 #        type: paypal
 #        # Paypal business ID or email address
