@@ -192,12 +192,12 @@ donates:
     -
         type: alipay
         # Alipay qrcode image URL
-        qrcode: 'https://image.suning.cn/uimg/yunxin/yunxinImg/165854320447658302.jpg'
+        qrcode: 'https://image.uc.cn/s/wemedia/s/upload/2022/624e189ae7ff90786a00afcd5716ba78.jpg'
     # Wechat donate button configurations
     -
         type: wechat
         # Wechat qrcode image URL
-        qrcode: 'https://image.suning.cn/uimg/yunxin/yunxinImg/165854320435550426.jpg'
+        qrcode: 'https://image.uc.cn/s/wemedia/s/upload/2022/e1081ac6a01f4f46789172a17a82fa91.png'
 #    # "Buy me a coffee" donate button configurations
 #    -
 #        type: buymeacoffee
@@ -253,7 +253,8 @@ widgets:
         # Author's current location
         location: 中国
         # URL or path to the avatar image
-        avatar: /img/avatar.png
+        avatar: https://image.uc.cn/s/wemedia/s/upload/2022/445f0ce6b08bba350ff634c4f55d98e4.jpg
+        #avatar: /img/avatar.png
         # Whether show the rounded avatar image
         avatar_rounded: true
         # Email address for the Gravatar
