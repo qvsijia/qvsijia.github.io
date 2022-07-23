@@ -363,9 +363,9 @@ widgets:
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/
 plugins:
     # 启用页面启动动画
-    animejs: true
+    animejs: false
     # 显示“返回顶部”按钮
-    back_to_top: true
+    back_to_top: false
     # 百度分析插件设置
     # https://tongji.baidu.com
     baidu_analytics:
