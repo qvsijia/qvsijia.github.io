@@ -160,6 +160,7 @@ article:
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Search/
 search:
     type: insight
+
 # 评论插件配置
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
 comment:
@@ -181,15 +182,11 @@ comment:
     highlight: true                               # 可选填
     math_tag_support: false                       # 可选填
     locale:                                       # 可选填
-      placeholder: '在这里评论...'
+    placeholder: '在这里评论...'
+
 # 捐赠插件配置
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
 donates:
-    # "Afdian.net" donate button configurations
-    -
-        type: afdian
-        # URL to the "Afdian.net" personal page
-        url: ''
     # Alipay donate button configurations
     -
         type: alipay
@@ -200,6 +197,11 @@ donates:
         type: wechat
         # Wechat qrcode image URL
         qrcode: 'https://image.suning.cn/uimg/yunxin/yunxinImg/165854320435550426.jpg'
+    # "Afdian.net" donate button configurations
+    -
+        type: afdian
+        # URL to the "Afdian.net" personal page
+        url: ''
     # "Buy me a coffee" donate button configurations
     -
         type: buymeacoffee
@@ -211,12 +213,13 @@ donates:
         # URL to the Patreon page
         url: ''
     # Paypal donate button configurations
-    -
-        type: paypal
-        # Paypal business ID or email address
-        business: ''
-        # Currency code
-        currency_code: USD
+#    -
+#        type: paypal
+#        # Paypal business ID or email address
+#        business: ''
+#        # Currency code
+#        currency_code: USD
+
 # 分享插件配置
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share/
 #share:
@@ -353,6 +356,7 @@ widgets:
         action_url: ''
         # Feed claiming verification code
         verification_code: ''
+
 # 插件配置
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/
 plugins:
@@ -428,6 +432,7 @@ plugins:
     twitter_conversion_tracking:
         # 推特像素 ID
         pixel_id: 
+
 # CDN 提供商设置
 # https://ppoffice.github.io/hexo-theme-icarus/Configuration/Theme/speed-up-your-site-with-custom-cdn/
 providers:
