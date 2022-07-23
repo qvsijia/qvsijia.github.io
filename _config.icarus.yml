@@ -194,7 +194,12 @@ donates:
     -
         type: alipay
         # Alipay qrcode image URL
-        qrcode: 'http://assets-storage.qvsijia.com/reserve/alipay.png'
+        qrcode: 'https://image.suning.cn/uimg/yunxin/yunxinImg/165854320447658302.jpg'
+    # Wechat donate button configurations
+    -
+        type: wechat
+        # Wechat qrcode image URL
+        qrcode: 'https://image.suning.cn/uimg/yunxin/yunxinImg/165854320435550426.jpg'
     # "Buy me a coffee" donate button configurations
     -
         type: buymeacoffee
@@ -212,11 +217,6 @@ donates:
         business: ''
         # Currency code
         currency_code: USD
-    # Wechat donate button configurations
-    -
-        type: wechat
-        # Wechat qrcode image URL
-        qrcode: 'http://assets-storage.qvsijia.com/reserve/wechat.png'
 # 分享插件配置
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share/
 #share:
@@ -372,7 +372,7 @@ plugins:
         tracking_id: 
     # 卜算子网站/页面浏览计数器
     # https://busuanzi.ibruce.info
-    busuanzi: true
+    busuanzi: false
     # CNZZ 统计数据
     # https://www.umeng.com/web
     cnzz:
