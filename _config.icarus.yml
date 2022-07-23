@@ -3,13 +3,14 @@ version: 5.0.0
 # 主题模式 可以是"default"或"cyberpunk"
 variant: default
 # 站点LOGO地址
-#logo: /img/logo.svg
-logo: /img/logo.png
+logo: https://image.suning.cn/uimg/yunxin/yunxinImg/165854635939068818.jpg
+#logo: /img/logo.png
 #    text: Qvsijia 曲思家
 # 页面元数据配置
 head:
     # 站点ICON地址
-    favicon: /img/favicon.png
+    favicon: https://image.suning.cn/uimg/yunxin/yunxinImg/165854636064862229.jpg
+    #favicon: /img/favicon.png
     # Web 应用程序清单配置
     # https://developer.mozilla.org/en-US/docs/Web/Manifest
     manifest:
@@ -439,8 +440,8 @@ plugins:
 # https://ppoffice.github.io/hexo-theme-icarus/Configuration/Theme/speed-up-your-site-with-custom-cdn/
 providers:
     # JavaScript/CSS CDN 提供商的名称或 URL 模板
-    cdn: 75cdn
+    cdn: bootcdn
     # Webfont CDN 提供商的名称或 URL 模板
     fontcdn: ustc
     # Fontawesome 图标字体 CDN 提供商的名称或 URL
-    iconcdn: 75cdn
+    iconcdn: bootcdn
