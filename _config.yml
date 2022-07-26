@@ -67,14 +67,27 @@ deploy:
 
 # Hexo-Neat
 neat_enable: true
+# HTML配置
 neat_html:
   enable: true
   logger: true
   exclude:
+  # 去除HTML注释
+  removeComments: true
+  # 删除所有内容为空的元素
+  removeEmptyElements: true
+  # type="text/css"从style和link标签中删除。其他type属性值保持不变
+  removeStyleLinkTypeAttributes: true
+  # type="text/javascript"从script标签中删除。其他type属性值保持不变
+  removeScriptTypeAttributes: true
+  # 当值与默认值匹配时删除属性
+  removeRedundantAttributes: true
+# CSS配置
 neat_css:
   enable: true
   logger: true
   exclude:
+# JS配置
 neat_js:
   enable: true
   logger: true
