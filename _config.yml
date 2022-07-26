@@ -98,7 +98,5 @@ neat_js:
 
 # Hexo-Excerpt
 excerpt:
-  depth: 10
-  excerpt_excludes: 
-  more_excludes: 
+  depth: 1
   hideWholePostExcerpts: true
