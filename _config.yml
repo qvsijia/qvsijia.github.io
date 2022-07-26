@@ -95,3 +95,10 @@ neat_js:
   output:
   compress:
   exclude:
+
+# Hexo-Excerpt
+excerpt:
+  depth: 10
+  excerpt_excludes: 
+  more_excludes: 
+  hideWholePostExcerpts: true
