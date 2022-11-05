@@ -365,9 +365,9 @@ widgets:
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/
 plugins:
     # 启用页面启动动画
-    animejs: false
+    animejs: true
     # 显示“返回顶部”按钮
-    back_to_top: false
+    back_to_top: true
     # 百度分析插件设置
     # https://tongji.baidu.com
     baidu_analytics:
@@ -380,7 +380,7 @@ plugins:
         tracking_id: 
     # 卜算子网站/页面浏览计数器
     # https://busuanzi.ibruce.info
-    busuanzi: false
+    busuanzi: true
     # CNZZ 统计数据
     # https://www.umeng.com/web
     cnzz:
@@ -421,7 +421,7 @@ plugins:
     mathjax: false
     # 启用过时的浏览器插件
     # http://outdatedbrowser.com/
-    outdated_browser: false
+    outdated_browser: true
     # 在页面加载时在页面顶部显示进度条
     progressbar: true
     # 统计计数器统计
