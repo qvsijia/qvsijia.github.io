@@ -96,7 +96,7 @@ neat_js:
   compress:
   exclude:
 
-# Hexo-Excerpt
-#excerpt:
-#  depth: 1
-#  hideWholePostExcerpts: true
+ Hexo-Excerpt
+excerpt:
+  depth: 1
+  hideWholePostExcerpts: true
