@@ -7,7 +7,7 @@ language: zh-CN
 timezone: Asia/Shanghai
 url: https://www.qvsijia.com
 permalink: ':hash.html'
-permalink_defaults: null
+permalink_defaults: ':hash'
 pretty_urls:
   trailing_index: true
   trailing_html: true
@@ -18,23 +18,23 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: ':lang'
-skip_render: null
+skip_render: master/**
 new_post_name: ':title.md'
 default_layout: post
-titlecase: false
+titlecase: true
 external_link:
   enable: true
   field: site
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace: ''
   wrap: true
   hljs: false
