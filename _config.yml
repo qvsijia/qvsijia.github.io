@@ -66,7 +66,7 @@ deploy:
   branch: gh-pages
 
 # Hexo-Neat
-neat_enable: true
+neat_enable: false
 # HTML配置
 neat_html:
   enable: true
@@ -97,6 +97,6 @@ neat_js:
   exclude:
 
 # Hexo-Excerpt
-excerpt:
-  depth: 1
-  hideWholePostExcerpts: true
+#excerpt:
+#  depth: 1
+#  hideWholePostExcerpts: true
