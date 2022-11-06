@@ -84,10 +84,10 @@ head:
         description: 曲思家的博客
         # Page URL (optional)
         # You should leave this blank for most of the time
-        url: 
+        url: https://www.qvsijia.com
         # Page author (article:author) (optional)
         # You should leave this blank for most of the time
-        author: 
+        author: 曲思家
         # Page publisher (optional)
         # You should leave this blank for most of the time
         publisher: 
@@ -185,6 +185,8 @@ comment:
     highlight: true                               # 可选填
     math_tag_support: false                       # 可选填
     locale:                                       # 可选填
+    reaction:
+      - 'https://unpkg.com/@waline/emojis@1.1.0/weibo/weibo_heart_eyes.png'
     placeholder: '在这里评论...'
 
 # 捐赠插件配置
